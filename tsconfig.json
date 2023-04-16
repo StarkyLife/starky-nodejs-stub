@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "es2021",
+
+    /* Modules */
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+
+    /* Type Checking */
+    "strict": true,
+
+    /* Interop Constraints */
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+
+    /* Completeness */
+    "skipLibCheck": true,
+
+    /* For faster builds */
+    "incremental": true
+  },
+  "include": ["src/**/*", "__e2e__/**/*"]
+}
